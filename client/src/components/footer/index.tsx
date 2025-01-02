@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="container-fluid bg-dark text-secondary mt-5 pt-5">
         <div className="row px-xl-5 pt-5">
           <div className="col-lg-8 col-md-12 mb-5 pr-3 pr-xl-5">
-            <h5 className="text-secondary text-uppercase mb-4">STONE STORE</h5>
+            <h5 className="text-secondary text-uppercase mb-4">PDF SHOP</h5>
             <p className="mb-4">
               Với sự kết hợp giữa niềm đam mê với công nghệ và tận tâm với khách
               hàng, chúng tôi luôn cung cấp những sản phẩm hàng đầu từ các

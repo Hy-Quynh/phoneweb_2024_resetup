@@ -100,6 +100,7 @@ function AdminOrder() {
                 setOpenStatusModal(true);
               }}
               className='bg-[#87d068] text-[white]'
+              disabled={record?.deliveryStatus === 'CANCEL'}
             >
               Cập nhật trạng thái
             </Button>

@@ -156,6 +156,15 @@ module.exports = {
         }
       );
 
+      const productInfo = res?.productInfo || []
+
+      for (let i=0; i<productInfo?.length; i++) {
+        await Product.findOneAndUpdate(
+          { _id: productInfo?.[i]?.productId },
+          { $inc: { currentQuantity: productInfo?.[i]?.quantity } }  
+        );
+      }
+
       if (res) {
         return {
           success: true,

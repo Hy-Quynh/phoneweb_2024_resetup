@@ -18,7 +18,7 @@ export default function AboutPage() {
                 className="display-5 mb-4 text-3xl"
                 style={{ color: "#FFD334" }}
               >
-                STONE STORE
+                PDF SHOP
               </h1>
               <p className="mb-4">
                 Chúng tôi tự hào là một đại lý bán lẻ chính thức của các thương

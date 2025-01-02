@@ -84,10 +84,10 @@ export default function RegisterPage() {
           <div className='logo mb-[10px] flex justify-center'>
             <a href='/' className='text-decoration-none'>
               <span className='h1 text-uppercase text-primary bg-dark px-2 text-base'>
-                PHONE
+                PDF
               </span>
               <span className='h1 text-uppercase text-dark bg-primary px-2 ml-n1 text-base'>
-                STORE
+                SHOP
               </span>
             </a>
           </div>
